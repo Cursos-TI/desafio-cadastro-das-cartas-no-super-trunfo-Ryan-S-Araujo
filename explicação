@@ -1,0 +1,56 @@
+aqui eu coloquei uma biblioteca do C de entrada e saida, que é necessária para as funções printf e scanf
+
+Defini uma estrutura (Cidade) para armazenar os dados de uma cidade
+array (string) de tamanho 5 para armazenar o codigo da cidadede
+array de numero inteiro para a armazenar a população
+array numero de ponto flutuante (float) que vai armazenar a área da cidade em Km²
+array numero de ponto flutuante que vai armazenar o PIB da cidade
+array de um numero inteiro para armazenar a quantidade de pontos turísticos
+
+
+Defini uma função (cadastrarCidade), ela recebe como argumento um ponteiro para uma estrutura(Cidade)(usamos Cidade *cidade), significa que essa função pode modificar os dados de uma cidade diretamente
+o printf Imprime uma mensagem peidndo para o usuário digitar o codigo da cidade
+o scanf lê o código inserido pelo usuárioe o armazena na variavel (codigo) da estrutura (Cidade)
+
+o printf Imprime uma mensagem peidndo para o usuário digitar a populaçao da cidade
+o scanf lê o numero inteiro inserido pelo usuárioe o armazena na variavel (populacao) da estrutura (Cidade)
+
+o printf Imprime uma mensagem peidndo para o usuário digitar a área da cidade em km²
+o scanf lê o numero de ponto flutuante inserido pelo usuárioe o armazena na variavel (area) da estrutura (Cidade)
+
+o printf Imprime uma mensagem peidndo para o usuário digitar o PIB da cidade
+o scanf lê o valor do pib inserido pelo usuárioe o armazena na variavel (pib) da estrutura (Cidade)
+
+o printf Imprime uma mensagem peidndo para o usuário digitar o numero de pontos turísticos da cidade
+o scanf lê o numero inteiro inserido pelo usuárioe o armazena na variavel (pontos_turisticos) da estrutura (Cidade)
+
+
+Defini outra função(Cidade cidade) dessa vez, nao vai ir como ponteiro, entao o valor da cicdade sera passado para a função, a diea dessa função é exibir os dados de uma cidade
+
+o printf imprime o codigo da cidade(ele esta usando o codigo armanezado na estrutura Cidade)
+(cidade.população) exibe a população da cidadede
+(cidade.area) exibre a area da cidade, formatada com duas casas decimais
+(cidade.pib) exibe o PIB da cidade, também com duas casas decimais
+(cidade.pontos_turisticos) exibe o numero de pontos turísticos
+
+
+Defini uma função (main)
+Aqui declaramos uma matriz de cidades chamada (cidades), que vai armazenaras informações de 8 estados e 4 cidades por estado, teremos no total 32 cidades em cadastro
+
+
+Temos dois loop(for) o primeiro percorre os estados de 'A' a 'H' (8 estados no total)
+o segundo loop(for) percorre as 4 cidades de cada estado, para cada cidade, ele chama a função (cadastrarCidade) para pedir ao usuário os dados da cidade e armazena-los na estrutura dentro da matriz
+
+
+
+
+
+
+Apos cadastrar as cidades, o programa imprime uma mensagem indicando que vai exibir os dados cadastrados
+em seguida, o programa usa dois loops par percorrer novamente os estados e as cidades, e para cada cidade, ele chama a função (exbibirCidade) para mostrar as informações da cidade
+
+
+
+
+
+a função (main) retorna 0, indicandoq que o programa foi executado com exito
