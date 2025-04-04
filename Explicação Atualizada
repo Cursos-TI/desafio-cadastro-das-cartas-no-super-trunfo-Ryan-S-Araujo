@@ -1,0 +1,33 @@
+Aqui eu coloquei uma biblioteca do C de entrada e saida, que é necessária para as funções printf e scanf
+
+Escrevi uma definição para um novo tipo de dado(Cidade) usando o Typedef struct
+Um array de de 5 caracteres que vai servir para armazenar o código de identificação da cidade
+Alteração do float para o usigned long int para trabalhar com mais dados e armazenar a população
+um array de ponto flutuante para representar a área da cidade em km²
+Array também de ponto flutuante para armazenar o PIB da cidade
+Array de número inteiro que irá armazenar a quantidade de pontos turísticos 
+Mais um array de ponto flutuante para armazenar a densidade populacional, calcuando a populaçao divivindo pela área
+Novo Array de ponto flutuante para armazenar o PIB per capita da cidade em reais
+Novo Array também de ponto flutuante para armazenar um valor calculado somando os atributos da cidade(no caso a pontuação para a cidade)
+Aqui tem o fechamento das definições da estrutura(cidade)
+
+
+Crie uma função para cadastrar os dados de uma cidade(cadastrarCidade) serve para receber um ponteiro para uma variável do tipo "Cidade" e preenche suas informações
+
+Printf para pedir ao usuário para inserir o código da cidade, e em seguida o scanf para ler a entrada, o "código" é armanezado dentro da estrutuca "cidade"
+
+
+
+Printf para pedir ao usuário para informar a população da cidade, sendo lida como usigned long int
+
+
+
+Printf para pedir a área da cidade, irá armazenar em um número de ponto flutuante 
+
+
+
+Printf pede o PIB da cidade(isso em bilhoes) e armazena em um número de ponto flutuante
+
+
+
+Printf solicita o número de pontos turísticos da cidade e armazena com um número inteiro
